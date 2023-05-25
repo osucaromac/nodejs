@@ -27,7 +27,17 @@ app.get("/", function (req, res) {
 });
 
 app.get("/prueba", function (req, res) {
-res.json({mensaje: 'lorem ipsum dolor sit amet, consectetur adip e  parturient montes del ea commodo e  consequ id el us'});
+    res.json({
+        autor: "LEAA",
+        correo: "nem.luise@coppel.com",
+        mensaje: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga in, iure sunt veritatis alias nulla quasi aliquid earum ut at error, sapiente corporis distinctio autem iusto, totam ad a deleniti!'
+                +'Ratione molestias optio saepe harum reiciendis qui aperiam neque deleniti reprehenderit, ipsum sunt dolorem nemo! Quisquam a voluptatibus corrupti reprehenderit enim, quidem eius error nostrum commodi placeat facilis atque voluptatem.'
+        +'Quod ullam numquam totam consectetur esse aspernatur pariatur ab quia veniam cupiditate molestiae hic, nam saepe illum ut inventore neque? Necessitatibus natus nihil libero modi dolorem dolorum eligendi ullam quasi.'
+        +'Optio, excepturi dolorum laborum dicta iste veniam aspernatur doloremque in fugit, eaque tenetur reiciendis vitae cum est facilis maxime modi nam. Rem ea nobis, accusantium doloremque laboriosam deserunt dolor maxime.'
+        +'Doloribus distinctio laborum quam eius nesciunt facere tempora voluptatibus accusantium magni. Laborum, deserunt voluptas. Aut dolor ex culpa minima labore qui numquam ad dolorum aliquid recusandae. Quod ipsa atque voluptatem!'
+        +'Quidem nisi temporibus sed facilis obcaecati eum amet optio aut perspiciatis doloremque nemo veniam itaque iure aspernatur dolores quaerat, minus dolor, at nostrum expedita laboriosam sequi? Aspernatur dolorum delectus sapiente.'
+        
+    });
 });
 
 
